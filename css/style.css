@@ -1,0 +1,47 @@
+main {
+    min-height: calc(100vh - 160px);
+  }
+.contenedorTodo{
+  padding: 2%;
+  text-align: justify;
+  width: 100%;
+  max-height: 20%;
+
+}
+.buscador_nasa{
+  margin-top:2%;
+  text-align: center;
+  width: 18rem; 
+  height: 25rem;
+  display:inline-block;
+  word-wrap: break-word;
+  overflow-y: scroll;
+  
+}
+.textobuscador{
+  text-align: justify;
+  overflow-y: scroll;
+  width: 18rem;
+  max-height: 20rem;
+}
+.imagenasa{
+  text-align: center;
+
+}
+
+body{
+  background-image: url("https://fondosmil.com/fondo/97805.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1{
+  color: antiquewhite;
+  font-weight: 800;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#inputBuscar{
+  color: #000080;
+  font-weight: 400;
+}
